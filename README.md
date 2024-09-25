@@ -54,7 +54,7 @@
   <br/>
   <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AnPhuoc2410&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
 </div>
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=AnPhuoc2410&theme=dark&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" /></a>
+
 <br/><br/>
 
 <hr/>
@@ -66,9 +66,3 @@
 </div>
 
 <br/>
-
-
-<!---
-AnPhuoc2410/AnPhuoc2410 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
