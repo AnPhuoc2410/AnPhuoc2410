@@ -64,5 +64,10 @@
 <div align="center">
 <a href='https://me.momo.vn/X5IoudT5i2iOURfDT6Tk' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
+<h3 align="left">🎵 My Music:</h3>
+<div style="display: flex; justify-content: space-between;">
+                <img width="400px" src="https://spotify-recently-played-readme.vercel.app/api?user=5nmgziyeg38ohvmstk91rqd99&count=5" alt="Spotify recently played"  />
+              </a>
+</div>
 
 <br/>
