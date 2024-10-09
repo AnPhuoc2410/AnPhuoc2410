@@ -37,7 +37,8 @@
 <hr/>
 
 <div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
+  <h2>🐍 My Contributions ![image](https://github.com/user-attachments/assets/88a834ef-525e-4025-96bd-11111a05a9ff)
+</h2>
   <br>
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
   
