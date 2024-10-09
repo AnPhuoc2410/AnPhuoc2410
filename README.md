@@ -66,7 +66,7 @@
 </div>
 <h3 align="left">🎵 My Music:</h3>
 <div style="display: flex; justify-content: space-between;">
-                <img width="400px" src="https://spotify-recently-played-readme.vercel.app/api?user=5nmgziyeg38ohvmstk91rqd99&count=5" alt="Spotify recently played"  />
+                <img width="400px" src="https://spotify-recently-played-readme.vercel.app/api?user=31z6yxvgsfukge657wxg7yqgt4bi&count=5" alt="Spotify recently played"  />
               </a>
 </div>
 
