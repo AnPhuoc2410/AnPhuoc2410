@@ -1,34 +1,32 @@
-name: Generate Snake Game
+name: Generate Snake
 
 on:
   schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write  # Grant write permissions to contents, which allows for pushing changes
+  contents: write  # Allow write permissions for pushing changes
 
 jobs:
   build:
-    name: Jobs to update data
+    name: Update Data
     runs-on: ubuntu-latest
     steps:
-      # Checkout the repository
+      # Check out the repository
       - name: Checkout Repository
         uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Snake Animation
-      - uses: Sutil/snk@master
+      # Generate the Snake Animation
+      - uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-contribution-grid-snake2.svg
-          snake_color: 'blue'
+          github_user_name: AnPhuoc2410  # Replace with your GitHub username
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Push generated snake animation to GitHub Pages
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      # Publish to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           target_branch: output
           build_dir: dist
