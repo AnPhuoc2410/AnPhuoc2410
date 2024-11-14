@@ -1,36 +1,34 @@
-# GitHub Action for generating a snake game animation showing contributions
-
 name: Generate Snake Game
 
 on:
-  # Schedule to execute every 12 hours
-  schedule:
-    - cron: "0 */12 * * *"
-
-  # Allows manual trigger from the Actions tab
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write  # Grant write permissions to contents, which allows for pushing changes
 
 jobs:
   build:
-    name: Update Contribution Snake Game
+    name: Jobs to update data
     runs-on: ubuntu-latest
     steps:
-      # Checks out the repository
+      # Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Generates the snake animation SVG with specified color
-      - name: Generate Snake Animation
-        uses: Sutil/snk@master
+      # Snake Animation
+      - uses: Sutil/snk@master
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/github-contribution-grid-snake2.svg
           snake_color: 'blue'
 
-      # Deploys the generated SVG to the 'output' branch for GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2.1.3
+      # Push generated snake animation to GitHub Pages
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           target_branch: output
           build_dir: dist
