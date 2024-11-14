@@ -16,7 +16,24 @@
 
 💬 Ask me about **Java, React, SQL... or anything [here](https://github.com/AnPhuoc2410)**
 
+<!-- Dynamic Quote Section -->
+<h2 align="center">✨ Inspiring Quote ✨</h2>
+<p align="center">
+   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote">
+</p>
+<!-- Github Activity Feed -->
+<h2 align="center">📝 Recent Activity 📝</h2>
+<div align="center">
+   <img src="https://activity-graph.herokuapp.com/graph?username=AnPhuoc2410&theme=react-dark&area=true&hide_border=true" alt="GitHub Activity Graph">
+</div>
+
  </div>
+ <!-- GitHub Trophies -->
+<h2 align="center">🏆 GitHub Trophies 🏆</h2>
+<div align="center">
+   <img src="https://github-profile-trophy.vercel.app/?username=AnPhuoc2410&theme=onedark&no-frame=true&column=7" alt="trophies" />
+</div>
+
  
 <div align="center"> 
   <a href="mailto:anphuocdao2410@gmail.com">
@@ -26,12 +43,12 @@
 
  <hr/>
  
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
-<br/>
+<!-- Tech Stack with Badges -->
+<h2 align="center">🚀 Languages & Tools 🚀</h2>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,git" />
-    <img src="https://skillicons.dev/icons?i=javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql" /><br>
+   <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,git,java,js,ts,express,firebase,mongodb,nextjs,mysql,aws,docker,spring" />
 </div>
+
 
 <br/>
 <hr/>
@@ -43,6 +60,14 @@
   
   <br/><br/><br/>
 </div>
+<!-- Github Activity Calendar -->
+<h2 align="center">📅 Contribution Calendar 📅</h2>
+<div align="center">
+   <img src="https://github.com/AnPhuoc2410/AnPhuoc2410/raw/output/github-contribution-grid-snake.svg" alt="snake animation">
+   <br>
+   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnPhuoc2410&bg_color=0e1116&color=58a6ff&line=9e4c98&point=1a1b27&area_color=1a1b27&area=true" width="100%"/>
+</div>
+
 
 <hr/>
 
