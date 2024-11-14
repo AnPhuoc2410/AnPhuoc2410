@@ -45,7 +45,7 @@
 <!-- Github Activity Calendar -->
 <h2 align="center">📅 Contribution Activity 📅</h2>
 <div align="center">
-   <img src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" alt="snake animation">
+   <img src="https://github.com/AnPhuoc2410/AnPhuoc2410/blob/output/github-contribution-grid-snake2.svg" alt="snake animation">
    <br>
    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnPhuoc2410&bg_color=0e1116&color=58a6ff&line=9e4c98&point=1a1b27&area_color=1a1b27&area=true" width="100%"/>
 </div>
