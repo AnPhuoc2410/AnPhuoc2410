@@ -36,7 +36,7 @@
 <!-- Tech Stack with Badges -->
 <h2 align="center">🚀 Languages & Tools 🚀</h2>
 <div align="center">
-   <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,idea,visualstudio,github,postman,git,ts,mongodb,mysql,aws,docker,spring,java,dotnet,cs,cpp,firebase,redis&theme=dark&perline=12" />
+   <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,idea,visualstudio,github,postman,git,unity,ts,mongodb,mysql,aws,docker,spring,java,dotnet,cs,cpp,firebase,redis&theme=dark&perline=12" />
 </div>
 
 <br/>
